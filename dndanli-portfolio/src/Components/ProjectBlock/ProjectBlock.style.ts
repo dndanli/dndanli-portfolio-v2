@@ -4,11 +4,17 @@ import ProjectBlock from "./ProjectBlock";
 const StyledProjectBlock = styled(ProjectBlock)`
   margin-bottom: 5rem;
   display: flex;
-  width: 48vw;
+  width: 49vw;
+  padding: 0.8rem;
+
   .project-img {
     width: 500px;
-    height: 255px;
-    margin-right: 2rem;
+    height: 240px;
+    margin-top: 0.5rem;
+  }
+
+  .project-img:nth-child(odd) {
+    margin-right: 1.5rem;
   }
 
   .project-desc,
@@ -20,6 +26,7 @@ const StyledProjectBlock = styled(ProjectBlock)`
   }
   .project-desc {
     width: 500px;
+    margin-right: 4rem;
   }
 
   .project-title {
