@@ -1,5 +1,4 @@
 import { GoLinkExternal, GoMarkGithub } from "react-icons/go";
-import styled from "styled-components";
 
 type ProjectBlockProps = {
   className: string;
