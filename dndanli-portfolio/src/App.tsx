@@ -1,8 +1,7 @@
-import React from "react";
 import StyledAbout from "./Components/About/About.style";
 import GlobalStyle from "./Components/GlobalStyles/GlobalStyles";
-import { IoIosArrowDown } from "react-icons/io";
 import StyledProjects from "./Components/Projects/Projects.style";
+import StyledArrowDown from "./Components/ArrowDownContainer/ArrowDown.style";
 
 function App() {
   return (
@@ -10,11 +9,7 @@ function App() {
       <GlobalStyle />
       <div>
         <StyledAbout className="about-section" />
-        <div className="arrow-down-div">
-          <a href="#projects">
-            <IoIosArrowDown className="arrow-down-icon" />
-          </a>
-        </div>
+        <StyledArrowDown className="arrow-down" />
         <StyledProjects className="projects" />
       </div>
     </div>
