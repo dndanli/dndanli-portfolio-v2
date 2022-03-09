@@ -7,7 +7,7 @@ type ProjectsProp = {
 
 const Projects = ({ className }: ProjectsProp) => {
   return (
-    <div className={className} id="projects">
+    <div className={className} id="all-projects">
       <div id="projects-title">
         <h1>PROJECTS</h1>
       </div>
