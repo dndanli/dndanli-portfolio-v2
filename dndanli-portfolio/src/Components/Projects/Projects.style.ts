@@ -9,15 +9,16 @@ const StyledProjects = styled(Projects)`
   .project-block:nth-child(odd) {
     flex-direction: row-reverse;
   }
+  padding: 0 30rem 0 30rem;
 
   #projects-title {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 3rem;
-    color: rgba(23, 23, 23, 0.9);
+    color: rgba(16, 16, 16, 0.8);
   }
 `;
 
