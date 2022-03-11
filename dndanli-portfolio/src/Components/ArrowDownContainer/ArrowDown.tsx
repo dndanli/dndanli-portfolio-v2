@@ -8,13 +8,7 @@ type ArrowDownProps = {
 const ArrowDown = ({ className }: ArrowDownProps) => {
   return (
     <div className={className}>
-      <Link
-        to="all-projects"
-        spy={true}
-        smooth={true}
-        offset={35}
-        duration={800}
-      >
+      <Link to="skills" spy={true} smooth={true} offset={-50} duration={800}>
         <IoIosArrowDown className="arrow-down-icon" />
       </Link>
     </div>
