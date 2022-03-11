@@ -10,7 +10,7 @@ const StyledProjectBlock = styled(ProjectBlock)`
   .project-img {
     width: 500px;
     height: 240px;
-    margin-top: 0.5rem;
+    margin-top: 1.4rem;
   }
 
   .project-img:nth-child(odd) {
@@ -21,9 +21,9 @@ const StyledProjectBlock = styled(ProjectBlock)`
   .project-title,
   .project-stack {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    color: rgba(23, 23, 23, 0.8);
+    color: rgba(16, 16, 16, 0.8);
   }
+
   .project-desc {
     width: 500px;
     margin-right: 4rem;
@@ -31,10 +31,13 @@ const StyledProjectBlock = styled(ProjectBlock)`
 
   .project-title {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 
   .project-stack {
     display: flex;
+    margin-top: 1rem;
   }
 
   .item {
