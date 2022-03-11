@@ -1,5 +1,3 @@
-import ProfilePic from "../../Assets/kwang-javier-qcRMfoIWxRo-unsplash.jpg";
-
 type AboutProps = {
   className: string;
 };
@@ -7,13 +5,12 @@ type AboutProps = {
 const About = ({ className }: AboutProps) => {
   return (
     <div className={className}>
-      <h1 id="dev">DEVELOPER</h1>
       <div className="greetings">
         <div className="about-header">
           <h1>
             <span id="hey">Hey!</span> I'M DANIEL DE LIMA
           </h1>
-          <h1>FULL-STACK DEVELOPER</h1>
+          <h1>A DIGITAL CRAFTSMAN</h1>
         </div>
         <img
           className="profile-pic"
@@ -24,11 +21,17 @@ const About = ({ className }: AboutProps) => {
         ></img>
       </div>
       <div className="about-text">
+        <p>I'm a full-stack developer based in iowa.</p>
+        <p>I was a student at the Des Moines Area Community College where</p>
         <p>
-          I love to build tools for the web and solve problems through code.
+          for the last 2 years I've learned the fundamentals of front-end and
+          back-end development.
         </p>
-        <p>Currently seeking a junior developer job.</p>
-        <p>Since you're here why don't you check my projects down below?</p>
+        <p id="job">I'm now currently seeking a junior developer job.</p>
+        <p>
+          Since you're here why don't you check my skills and projects down
+          below?
+        </p>
       </div>
     </div>
   );
