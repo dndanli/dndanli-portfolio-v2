@@ -8,9 +8,7 @@ type ProjectsProp = {
 const Projects = ({ className }: ProjectsProp) => {
   return (
     <div className={className} id="all-projects">
-      <div id="projects-title">
-        <h1>PROJECTS</h1>
-      </div>
+      <h2 id="projects-title">PROJECTS</h2>
       {ProjectsData.map((project) => {
         return (
           <StyledProjectBlock
