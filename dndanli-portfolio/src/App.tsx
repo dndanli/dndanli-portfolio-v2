@@ -4,6 +4,7 @@ import StyledProjects from "./Components/Projects/Projects.style";
 import StyledArrowDown from "./Components/ArrowDownContainer/ArrowDown.style";
 import StyledNavbar from "./Components/Navbar/Navbar.style";
 import StyledSkills from "./Components/Skills/Skills.style";
+import StyledContact from "./Components/Contact/Contact.style";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <StyledArrowDown className="arrow-down" />
         <StyledSkills className="skills-section" />
         <StyledProjects className="projects" />
+        <StyledContact className="contact" />
       </div>
     </div>
   );
