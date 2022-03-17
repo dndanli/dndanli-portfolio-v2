@@ -6,7 +6,7 @@ type ContactProps = {
 
 const Contact = ({ className }: ContactProps) => {
   return (
-    <div className={className}>
+    <div className={className} id="contact-section">
       <h1 className="contact-title">Would you like to chat?</h1>
       <div>
         <p className="contact-text">
