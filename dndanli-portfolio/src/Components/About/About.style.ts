@@ -47,8 +47,8 @@ const StyledAbout = styled(About)`
     font-weight: 400;
     font-size: 1.5rem;
     width: 100%;
-    color: rgba(16, 16, 16, 0.9);
-    p {
+    color: rgba(16, 16, 16, 0.7);
+    h2 {
       margin: 1rem 0 1rem 0;
     }
   }
