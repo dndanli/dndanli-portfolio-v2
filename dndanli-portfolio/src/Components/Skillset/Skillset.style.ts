@@ -8,8 +8,8 @@ const StyledSkillset = styled(Skillset)`
   align-items: center;
   padding: 1rem;
   border: 1px solid rgba(16, 16, 16, 0.1);
-  background-color: #ffffff;
   height: 37rem;
+
   ul {
     list-style-type: none;
     width: 90%;
@@ -19,25 +19,25 @@ const StyledSkillset = styled(Skillset)`
   }
   .skill-li {
     margin-bottom: 1rem;
-    color: rgba(16, 16, 16, 0.8);
+    color: rgba(16, 16, 16, 0.7);
   }
 
   .skill-icon {
     font-size: 2.8rem;
-    color: #4eb1a2;
+    color: #95aed0;
     margin-bottom: 2rem;
   }
 
   .skill-title {
     margin-bottom: 1rem;
-    color: rgba(16, 16, 16, 0.9);
+    color: rgba(16, 16, 16, 0.8);
   }
 
   .skill-info {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    color: rgba(16, 16, 16, 0.9);
+    color: rgba(16, 16, 16, 0.7);
   }
 `;
 
