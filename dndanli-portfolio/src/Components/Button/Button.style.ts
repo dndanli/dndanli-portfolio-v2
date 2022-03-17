@@ -7,7 +7,9 @@ const StyledLinkButton = styled(LinkButton)`
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 `;
 
 export default StyledLinkButton;
