@@ -13,12 +13,12 @@ const StyledProjects = styled(Projects)`
 
   #projects-title {
     font-size: 2.4rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 3rem;
-    color: rgba(16, 16, 16, 0.8);
+    color: rgba(16, 16, 16, 0.9);
   }
 `;
 
