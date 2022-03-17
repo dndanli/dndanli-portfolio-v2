@@ -20,8 +20,8 @@ const StyledProjectBlock = styled(ProjectBlock)`
   .project-desc,
   .project-title,
   .project-stack {
-    font-family: "Roboto", sans-serif;
-    color: rgba(16, 16, 16, 0.8);
+    font-family: "Inter", sans-serif;
+    color: rgba(16, 16, 16, 0.7);
   }
 
   .project-desc {
