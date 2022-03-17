@@ -25,7 +25,7 @@ const Contact = ({ className }: ContactProps) => {
             className="link-button"
             textInput="LinkedIn"
             link="https://www.linkedin.com/in/daniel-de-lima-a07aa8223/"
-            inputBgColor="#ffc295"
+            inputBgColor="#76508e"
             inputColor="white"
           ></StyledLinkButton>
         </div>
