@@ -21,17 +21,11 @@ const About = ({ className }: AboutProps) => {
         ></img>
       </div>
       <div className="about-text">
-        <p>I'm a full-stack developer based in iowa.</p>
-        <p>I was a student at the Des Moines Area Community College where</p>
-        <p>
-          for the last 2 years I've learned the fundamentals of front-end and
-          back-end development.
-        </p>
-        <p id="job">I'm now currently seeking a junior developer job.</p>
-        <p>
+        <h2>I'm a full-stack developer based in iowa.</h2>
+        <h2>
           Since you're here why don't you check my skills and projects down
           below?
-        </p>
+        </h2>
       </div>
     </div>
   );
