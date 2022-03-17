@@ -20,7 +20,15 @@ const Navbar = ({ className }: NavbarProps) => {
         >
           <li>PROJECTS</li>{" "}
         </Link>
-        <li>CONTACT</li>
+        <Link
+          to="contact-section"
+          spy={true}
+          smooth={true}
+          offset={34}
+          duration={1200}
+        >
+          <li>CONTACT</li>
+        </Link>
       </ul>
     </div>
   );
