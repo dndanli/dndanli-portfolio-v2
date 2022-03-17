@@ -3,25 +3,25 @@ import Contact from "./Contact";
 
 const StyledContact = styled(Contact)`
   padding: 0 30rem 0 30rem;
-  color: rgba(16, 16, 16, 0.8);
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  min-height: 70vh;
+  font-family: "Inter", sans-serif;
+  color: rgba(250, 250, 250, 0.8);
+  background-color: #171617;
+  padding-top: 17rem;
 
-  font-family: "Montserrat", sans-serif;
   .contact-title {
-    margin-top: 17rem;
     font-size: 3rem;
   }
 
   a {
     text-decoration: none;
-    color: #fcd1b4;
   }
 
   .email {
-    color: #4eb1a2;
+    color: #eb89b5;
   }
 
   .contact-text {
