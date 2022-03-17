@@ -3,7 +3,7 @@ import ArrowDown from "./ArrowDown";
 const StyledArrowDown = styled(ArrowDown)`
   display: flex;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 12rem;
   margin-bottom: 8rem;
   cursor: pointer;
 
