@@ -22,6 +22,7 @@ const StyledNavbar = styled(Navbar)`
     align-items: center;
   }
   li {
+    font-size: 1.2rem;
     margin-left: 2rem;
     cursor: pointer;
     &:hover {
