@@ -15,7 +15,7 @@ const Navbar = ({ className }: NavbarProps) => {
           to="all-projects"
           spy={true}
           smooth={true}
-          offset={-34}
+          offset={-75}
           duration={800}
         >
           <li>PROJECTS</li>{" "}
