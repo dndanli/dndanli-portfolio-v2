@@ -8,7 +8,7 @@ const StyledNavbar = styled(Navbar)`
   background-image: linear-gradient(45deg, #fdfdfd, #fff4f9);
   background-color: rgba(255, 255, 255, 0.8);
 
-  color: rgba(16, 16, 16, 0.7);
+  color: rgba(16, 16, 16, 0.5);
 
   height: 4rem;
   position: fixed;
