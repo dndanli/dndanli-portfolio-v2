@@ -2,10 +2,8 @@ import styled from "styled-components";
 import About from "./About";
 
 const StyledAbout = styled(About)`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 8rem 30rem 0 30rem;
+  padding-block: min(20vh, 10rem);
+  padding-inline: min(30vw, 25rem);
   background-color: #fdfdfd;
   background-image: linear-gradient(45deg, #fdfdfd, #fff4f9);
   min-height: 70vh;
