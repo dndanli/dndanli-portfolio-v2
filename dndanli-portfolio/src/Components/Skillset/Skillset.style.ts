@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Skillset from "./Skillset";
 
 const StyledSkillset = styled(Skillset)`
-  width: 20rem;
+  width: 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;
