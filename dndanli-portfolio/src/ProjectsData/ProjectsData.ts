@@ -1,5 +1,5 @@
-import P1 from "../Assets/decide-my-meal.png";
-import P2 from "../Assets/expenses-tracker.png";
+import P1 from "../Assets/decide-my-meal-m.png";
+import P2 from "../Assets/expenses-tracker-m.png";
 import P3 from "../Assets/health-promotion.png";
 
 const ProjectsData: {
