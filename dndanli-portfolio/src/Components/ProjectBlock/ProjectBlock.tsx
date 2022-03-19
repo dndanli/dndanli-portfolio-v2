@@ -31,7 +31,7 @@ const ProjectBlock = ({
           {projectStack.map((item, index) => {
             return (
               <p key={index} className="item">
-                {item},
+                {item}
               </p>
             );
           })}
