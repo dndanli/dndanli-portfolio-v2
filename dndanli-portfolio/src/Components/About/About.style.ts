@@ -6,7 +6,7 @@ const StyledAbout = styled(About)`
   padding-inline: min(30vw, 25rem);
   background-color: #fdfdfd;
   background-image: linear-gradient(45deg, #fdfdfd, #fff4f9);
-  min-height: 70vh;
+
   #name {
     color: #eb89b5;
   }
