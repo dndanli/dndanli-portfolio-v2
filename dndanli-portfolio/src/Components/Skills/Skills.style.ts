@@ -4,17 +4,20 @@ import Skills from "../Skills/Skills";
 const StyledSkills = styled(Skills)`
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  padding-block: min(20vh, 2rem);
+  padding-inline: min(30vw, 25rem);
 
   #skills-header {
+    padding-block: min(15vh, 4rem);
     font-size: 2.4rem;
-    padding: 2rem 30rem 1rem 30rem;
     color: rgba(16, 16, 16, 0.9);
   }
+
   .skillset-wrapper {
     display: flex;
     justify-content: center;
-    padding: 6rem 30rem 4rem 30rem;
-    height: 77vh;
+    align-items: center;
+    min-height: 77vh;
     margin-bottom: 5rem;
   }
 
