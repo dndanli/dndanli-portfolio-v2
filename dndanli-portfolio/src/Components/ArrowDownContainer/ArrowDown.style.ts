@@ -3,8 +3,8 @@ import ArrowDown from "./ArrowDown";
 const StyledArrowDown = styled(ArrowDown)`
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   cursor: pointer;
   background-color: #fdfdfd;
   background-image: linear-gradient(45deg, #fdfdfd, #fff4f9);
