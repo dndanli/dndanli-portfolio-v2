@@ -5,11 +5,23 @@ const StyledProjects = styled(Projects)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
+  padding-inline: min(30vw, 25rem);
+  padding-block: min(30vh, 3rem);
+
+  .projects-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .project-block:nth-child(odd) {
     flex-direction: row-reverse;
   }
-  padding: 0 30rem 0 30rem;
+  .project-block:nth-child(even) {
+    .project-desc {
+      margin-left: 1rem;
+    }
+  }
 
   #projects-title {
     font-size: 2.4rem;
