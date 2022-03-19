@@ -16,8 +16,9 @@ const ProjectBlock = ({
   projectStack,
 }: ProjectBlockProps) => {
   return (
-    <div className={className} id="cont">
+    <div className={className}>
       <img className="project-img" src={projectImgUrl} alt={projectTitle}></img>
+
       <div className="project-desc">
         <div className="project-title">
           <h3>{projectTitle.toLowerCase()}</h3>
