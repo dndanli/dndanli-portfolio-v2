@@ -31,8 +31,6 @@ const StyledAbout = styled(About)`
 
   .greetings {
     font-size: 1.7rem;
-    display: flex;
-    justify-content: space-between;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     color: rgba(16, 16, 16, 0.9);
