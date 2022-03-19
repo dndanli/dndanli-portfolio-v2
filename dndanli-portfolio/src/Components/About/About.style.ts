@@ -29,11 +29,6 @@ const StyledAbout = styled(About)`
     display: flex;
   }
 
-  #job {
-    text-decoration: underline;
-    text-decoration-color: #ffc295;
-  }
-
   .greetings {
     font-size: 1.7rem;
     display: flex;
