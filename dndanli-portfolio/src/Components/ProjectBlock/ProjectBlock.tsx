@@ -37,8 +37,10 @@ const ProjectBlock = ({
           })}
         </div>
 
-        <GoLinkExternal className="project-links" />
-        <GoMarkGithub className="project-links" />
+        <div>
+          <GoLinkExternal className="project-links" />
+          <GoMarkGithub className="project-links" />
+        </div>
       </div>
     </div>
   );
