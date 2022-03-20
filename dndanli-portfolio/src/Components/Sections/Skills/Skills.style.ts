@@ -4,6 +4,7 @@ import Skills from "./Skills";
 const StyledSkills = styled(Skills)`
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  margin-top: 12rem;
   margin-bottom: 4rem;
 
   display: flex;
