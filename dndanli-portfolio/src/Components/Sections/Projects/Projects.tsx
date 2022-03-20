@@ -6,7 +6,7 @@ type ProjectsProps = {
 };
 const Projects = ({ className }: ProjectsProps) => {
   return (
-    <div className={className}>
+    <div className={className} id="projects">
       <h1 id="recent-works">Recent works</h1>
       {ProjectsData.map((project) => {
         return (
