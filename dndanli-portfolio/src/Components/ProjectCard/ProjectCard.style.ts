@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCard";
 const StyledProjectCard = styled(ProjectCard)`
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  max-width: 27rem;
-  min-height: 40rem;
+  min-width: 19rem;
+  min-height: 36rem;
   border-radius: 1rem;
 
   display: flex;
@@ -18,16 +18,17 @@ const StyledProjectCard = styled(ProjectCard)`
 
   .project-image-wrapper {
     padding-block: min(30vh, 1.5rem);
-
     width: 100%;
     display: flex;
     justify-content: center;
   }
+
   .project-image-wrapper img {
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 300px;
+    max-height: 200px;
     border-radius: 1rem;
   }
+
   .project-info-wrapper > div {
     padding-block: min(30vh, 1rem);
   }
@@ -38,26 +39,37 @@ const StyledProjectCard = styled(ProjectCard)`
   }
 
   .project-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
     color: rgba(250, 250, 250, 0.7);
   }
 
   .project-stack {
-    display: flex;
-    justify-content: space-evenly;
     color: rgba(250, 250, 250, 0.7);
     list-style-type: none;
-  }
-  .project-stack li {
-    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
+  .project-stack li {
+    margin-left: 0.5rem;
+  }
   .project-buttons {
+    margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
   }
+
   .link-button {
     border-radius: 0.8rem;
+    width: 7rem;
+  }
+  .btn-text-input {
+    font-size: 19px;
   }
 
   .project-buttons a {
