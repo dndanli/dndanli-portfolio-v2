@@ -8,6 +8,7 @@ type SkillsProps = {
 const Skills = ({ className }: SkillsProps) => {
   return (
     <div className={className} id="skills">
+      <h1 id="skill-title">What I'm skilled at</h1>
       {SkillsData.map((object) => {
         return (
           <StyledSkillsetCard
