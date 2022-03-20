@@ -4,30 +4,25 @@ import Navbar from "./Navbar";
 const StyledNavbar = styled(Navbar)`
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: linear-gradient(45deg, #fdfdfd, #fff4f9);
-  color: rgba(16, 16, 16, 0.5);
-  padding-inline: min(30vw, 25rem);
-
-  position: fixed;
-  min-width: 100vw;
+  color: rgba(250, 250, 250, 0.8);
   display: flex;
   justify-content: center;
-  height: 4rem;
+  min-height: 4rem;
 
   ul {
     list-style-type: none;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
   }
 
   li {
-    font-size: 1.2rem;
-    margin-left: 2rem;
+    font-size: 1.1rem;
     cursor: pointer;
     &:hover {
       transition: all ease-in-out 350ms;
-      color: rgba(16, 16, 16, 0.7);
+      color: rgba(250, 250, 250, 0.9);
     }
   }
 `;
