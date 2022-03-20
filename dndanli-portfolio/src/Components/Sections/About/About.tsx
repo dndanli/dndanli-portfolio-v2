@@ -1,4 +1,4 @@
-import StyledLinkButton from "../../Button/Button.style";
+import StyledLinkButton from "../../LinkButton/LinkButton.style";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from "react-scroll";
 
@@ -51,7 +51,7 @@ const About = ({ className }: AboutProps) => {
       </div>
 
       <div className="arrow-down-icon">
-        <Link to="skills" spy={true} smooth={true} offset={-50} duration={800}>
+        <Link to="skills" spy={true} smooth={true} offset={-100} duration={800}>
           <IoIosArrowDown />
         </Link>
       </div>
