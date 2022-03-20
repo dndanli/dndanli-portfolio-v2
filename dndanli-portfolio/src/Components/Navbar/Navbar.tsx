@@ -8,7 +8,7 @@ const Navbar = ({ className }: NavbarProps) => {
   return (
     <div className={className}>
       <ul>
-        <Link to="skills" spy={true} smooth={true} offset={-90} duration={800}>
+        <Link to="skills" spy={true} smooth={true} offset={-100} duration={800}>
           <li>SKILLS</li>
         </Link>
         <Link
