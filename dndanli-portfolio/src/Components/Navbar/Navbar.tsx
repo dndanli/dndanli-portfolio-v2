@@ -12,10 +12,10 @@ const Navbar = ({ className }: NavbarProps) => {
           <li>SKILLS</li>
         </Link>
         <Link
-          to="all-projects"
+          to="projects"
           spy={true}
           smooth={true}
-          offset={-75}
+          offset={-80}
           duration={800}
         >
           <li>PROJECTS</li>
