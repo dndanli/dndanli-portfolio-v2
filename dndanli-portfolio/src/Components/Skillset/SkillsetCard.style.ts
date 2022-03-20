@@ -2,7 +2,7 @@ import styled from "styled-components";
 import SkillsetCard from "./SkillsetCard";
 
 const StyledSkillsetCard = styled(SkillsetCard)`
-  min-width: 22rem;
+  min-width: 19rem;
   min-height: 17rem;
   background-color: rgba(83, 59, 91, 0.9);
   color: rgba(250, 250, 250, 0.8);
@@ -17,11 +17,11 @@ const StyledSkillsetCard = styled(SkillsetCard)`
     padding: 1rem;
     list-style-type: none;
     -webkit-column-count: 2; /* Chrome/Opera, Safari */
-    -webkit-column-gap: 7rem;
+    -webkit-column-gap: 4rem;
     -moz-column-count: 2; /* Mozilla Firefox */
-    -moz-column-gap: 7rem;
+    -moz-column-gap: 4rem;
     column-count: 2;
-    column-gap: 7rem;
+    column-gap: 4rem;
   }
 
   .skill-list-item {
