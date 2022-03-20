@@ -8,13 +8,19 @@ const StyledNavbar = styled(Navbar)`
   display: flex;
   justify-content: center;
   min-height: 4rem;
+  padding-block: min(30vh, 0.5rem);
 
   ul {
     list-style-type: none;
     display: flex;
+    background-color: rgba(250, 250, 250, 0.1);
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+    min-height: 4rem;
+    min-width: 28.5rem;
+    position: fixed;
+    border-radius: 1.05rem;
+    backdrop-filter: blur(10px);
   }
 
   li {
