@@ -18,7 +18,7 @@ const Navbar = ({ className }: NavbarProps) => {
           offset={-75}
           duration={800}
         >
-          <li>PROJECTS</li>{" "}
+          <li>PROJECTS</li>
         </Link>
         <Link
           to="contact-section"
