@@ -17,7 +17,7 @@ const StyledNavbar = styled(Navbar)`
     align-items: center;
     justify-content: space-evenly;
     min-height: 4rem;
-    min-width: 28.5rem;
+    min-width: 22rem;
     position: fixed;
     border-radius: 1.05rem;
     backdrop-filter: blur(10px);
