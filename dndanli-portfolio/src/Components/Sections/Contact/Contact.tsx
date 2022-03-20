@@ -1,4 +1,4 @@
-import StyledLinkButton from "../../Button/Button.style";
+import StyledLinkButton from "../../LinkButton/LinkButton.style";
 
 type ContactProps = {
   className: string;
