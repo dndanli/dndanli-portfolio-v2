@@ -8,7 +8,7 @@ const StyledAbout = styled(About)`
   padding-block: min(30vh, 5rem);
 
   .greetings {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     color: rgba(250, 250, 250, 0.9);
@@ -17,16 +17,8 @@ const StyledAbout = styled(About)`
     align-items: center;
   }
 
-  #span-greeting-1 {
-    /* color: #fc85ae; */
-  }
-
-  #span-gretting-2 {
-    /* color: #f4afab; */
-  }
-
   .about-text {
-    font-size: 1.2rem;
+    font-size: 17px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
 
