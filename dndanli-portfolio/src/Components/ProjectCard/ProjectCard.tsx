@@ -31,14 +31,11 @@ const ProjectCard = ({
           <p>{projectDescription}</p>
         </div>
 
-        <div className="project-stack-container">
-          {/* TODO: replace index for id for each key */}
-          <ul className="project-stack">
-            {projectStack.map((tool, index) => {
-              return <li key={index}>{tool}</li>;
-            })}
-          </ul>
-        </div>
+        <ul className="project-stack">
+          {projectStack.map((tool, index) => {
+            return <li key={index}>{tool}</li>;
+          })}
+        </ul>
 
         <div className="project-buttons">
           {isLive === true ? (
