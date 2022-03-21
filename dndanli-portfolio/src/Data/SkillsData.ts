@@ -1,15 +1,15 @@
 const SkillsData: {
-  id: number;
+  id: string;
   title: string;
   skills: string[];
 }[] = [
   {
-    id: 1,
+    id: "frontend",
     title: "Frontend",
     skills: ["JavaScript", "TypeScript", "React", "HTML", "CSS", "Bootstrap"],
   },
   {
-    id: 2,
+    id: "backend",
     title: "Backend",
     skills: [
       "Java",
@@ -22,7 +22,7 @@ const SkillsData: {
     ],
   },
   {
-    id: 3,
+    id: "tools",
     title: "Tools",
     skills: ["Git", "GitHub", "Heroku", "VsCode", "NeoVim", "Windows", "Linux"],
   },
