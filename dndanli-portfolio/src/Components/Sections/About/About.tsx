@@ -11,11 +11,11 @@ const About = ({ className }: AboutProps) => {
     <div className={className}>
       <div className="greetings">
         <h1>
-          I'm
-          <span id="span-greeting-1"> Daniel De Lima</span>
+          I'm Daniel
+          <span id="span-greeting-1"> De Lima</span>
         </h1>
         <h1>
-          a <span id="span-gretting-2">Digital Craftsman</span>
+          a <span id="span-greeting-2">Digital Craftsman</span>
         </h1>
       </div>
 
