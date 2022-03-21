@@ -58,6 +58,9 @@ const StyledAbout = styled(About)`
   .link-button {
     width: 7rem;
   }
+  .btn-text-input {
+    font-size: 1.1rem;
+  }
 
   .arrow-down-icon {
     margin-top: 20%;
