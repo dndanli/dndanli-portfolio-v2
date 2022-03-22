@@ -75,6 +75,10 @@ const StyledProjectCard = styled(ProjectCard)`
   .project-buttons a {
     text-decoration: none;
   }
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+  }
 `;
 
 export default StyledProjectCard;
