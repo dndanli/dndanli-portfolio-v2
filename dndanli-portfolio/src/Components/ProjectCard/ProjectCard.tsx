@@ -4,6 +4,8 @@ type ProjectCardProps = {
   className: string;
   projectImgPath: string;
   projectTitle: string;
+  projectUrl?: string;
+  sourceCodeUrl: string;
   projectDescription: string;
   projectStack: string[];
   isLive: boolean;
@@ -12,6 +14,8 @@ type ProjectCardProps = {
 const ProjectCard = ({
   className,
   projectImgPath,
+  projectUrl,
+  sourceCodeUrl,
   projectTitle,
   projectDescription,
   projectStack,
@@ -42,7 +46,7 @@ const ProjectCard = ({
             <StyledLinkButton
               className="link-button"
               textInput="See live"
-              link="https://github.com/dndanli"
+              link={projectUrl}
               inputBgColor="rgba(16, 16, 16, 0.3)"
               inputColor="white"
             ></StyledLinkButton>
@@ -51,7 +55,7 @@ const ProjectCard = ({
           <StyledLinkButton
             className="link-button"
             textInput="GitHub"
-            link="https://github.com/dndanli"
+            link={sourceCodeUrl}
             inputBgColor="rgba(16, 16, 16, 0.3)"
             inputColor="white"
           ></StyledLinkButton>
