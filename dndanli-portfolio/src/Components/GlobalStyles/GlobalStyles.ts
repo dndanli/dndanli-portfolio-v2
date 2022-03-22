@@ -27,17 +27,22 @@ const GlobalStyle = createGlobalStyle`
       }
     }
   }
-
-  /* 481 - 678 Ipads tablets*/
-  .skills-section{
-   
+  .projects-section{
+    @media only screen and (min-width: 500px){
+      .project-image-wrapper img {
+        max-width: 370px;
+        max-height: 280px;
+        border-radius: 1rem;
+      }
+    }
   }
 
+  /* 481 - 678 Ipads tablets*/
   .about-section{
     @media only screen and (min-width: 678px){
       .greetings{
           font-size: 1.3rem;
-        }
+      }
     }
   }
 
@@ -57,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
         
       }    
     }
-  }  
+  }
 `;
 
 export default GlobalStyle;
