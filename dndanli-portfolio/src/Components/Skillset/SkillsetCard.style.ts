@@ -27,11 +27,6 @@ const StyledSkillsetCard = styled(SkillsetCard)`
   .skill-list-item {
     margin-bottom: 10%;
   }
-
-  &:hover {
-    transform: scale(1.05);
-    transition: 0.5s ease;
-  }
 `;
 
 export default StyledSkillsetCard;
