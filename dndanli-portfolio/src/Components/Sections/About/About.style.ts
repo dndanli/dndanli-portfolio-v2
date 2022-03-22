@@ -68,6 +68,7 @@ const StyledAbout = styled(About)`
     display: flex;
     justify-content: center;
     color: rgba(250, 250, 250, 0.7);
+    cursor: pointer;
   }
 `;
 
