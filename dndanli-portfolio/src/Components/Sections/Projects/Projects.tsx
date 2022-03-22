@@ -7,20 +7,26 @@ type ProjectsProps = {
 const Projects = ({ className }: ProjectsProps) => {
   return (
     <div className={className} id="projects">
-      <h1 id="recent-works">Recent works</h1>
-      {ProjectsData.map((project) => {
-        return (
-          <StyledProjectCard
-            className="project-card"
-            projectImgPath={project.imgUrl}
-            projectTitle={project.title}
-            projectDescription={project.desc}
-            projectStack={project.stack}
-            isLive={project.isLive}
-            key={project.id}
-          ></StyledProjectCard>
-        );
-      })}
+      <div id="recent-works">
+        <h1 id="recent-works">Recent works</h1>
+      </div>
+      <div className="projects-container">
+        {ProjectsData.map((project) => {
+          return (
+            <StyledProjectCard
+              className="project-card"
+              projectImgPath={project.imgUrl}
+              projectUrl={project.projectUrl}
+              sourceCodeUrl={project.sourceCodeUrl}
+              projectTitle={project.title}
+              projectDescription={project.desc}
+              projectStack={project.stack}
+              isLive={project.isLive}
+              key={project.id}
+            ></StyledProjectCard>
+          );
+        })}
+      </div>
     </div>
   );
 };
