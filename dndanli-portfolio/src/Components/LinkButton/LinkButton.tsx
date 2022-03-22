@@ -1,7 +1,7 @@
 type LinkButtonProps = {
   className: string;
   textInput: string;
-  link: string;
+  link?: string;
   inputColor: string;
   inputBgColor: string;
 };
