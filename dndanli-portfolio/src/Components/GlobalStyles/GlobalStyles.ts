@@ -16,7 +16,6 @@ const GlobalStyle = createGlobalStyle`
     background-image: linear-gradient(45deg, #121417, #48284A);
   }
 
-  /* 320 - 480 mobile devices */
   .about-section{
     @media only screen and (min-width: 480px){
       .greetings{
@@ -37,7 +36,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  /* 481 - 678 Ipads tablets*/
   .about-section{
     @media only screen and (min-width: 678px){
       .greetings{
@@ -46,7 +44,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  .skills-section{
+  .skills-section, .about-section{
     @media only screen and (min-width: 769px){
       .skills-container{
         display: grid;
@@ -54,13 +52,37 @@ const GlobalStyle = createGlobalStyle`
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 3rem;
       }
+      .skillset-card{
+        min-width: 22rem;
+      }
       #tools{
         grid-column: 1/3;
         .skill-list-item{
           margin-left: 7rem;
         }
-        
-      }    
+      } 
+      .greetings{
+          font-size: 1.5rem;
+      }   
+    }
+  }
+  
+  .projects-section{
+    @media only screen and (min-width: 1200px){
+      .project-card{
+        max-width: 23rem;
+      }
+
+      .project-image-wrapper img {
+        max-width: 330px;
+        max-height: 230px;
+      }
+
+      .projects-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem
+      }
     }
   }
 `;
