@@ -13,8 +13,8 @@ const StyledProjectCard = styled(ProjectCard)`
   align-items: center;
   padding-inline: min(30vw, 1rem);
 
-  background-color: #2d3339;
-  background-image: linear-gradient(45deg, #373331, #452b45);
+  background-color: #343a40;
+  background-image: linear-gradient(45deg, #343a40, #393e46);
 
   .project-image-wrapper {
     padding-block: min(30vh, 1.5rem);
