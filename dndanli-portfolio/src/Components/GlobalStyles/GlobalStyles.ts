@@ -70,6 +70,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.5rem;
       }
       .contact-wrapper{
+        font-size:1.5rem;
         padding-block: min(25vh, 7rem);
         min-width: 60rem;
       } 
