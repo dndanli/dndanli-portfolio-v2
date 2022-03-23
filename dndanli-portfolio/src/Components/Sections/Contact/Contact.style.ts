@@ -5,6 +5,9 @@ const StyledContact = styled(Contact)`
   display: flex;
   padding-block: min(500vh, 15rem);
   justify-content: center;
+  .contact-title h2 {
+    font-size: 1.4rem;
+  }
   .contact-wrapper {
     display: flex;
     flex-direction: column;
@@ -17,6 +20,9 @@ const StyledContact = styled(Contact)`
 
   .link-button {
     width: 7rem;
+  }
+  #button {
+    margin-top: 1.5rem;
   }
   .btn-text-input {
     font-size: 1.1rem;
