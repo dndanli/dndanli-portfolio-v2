@@ -14,8 +14,6 @@ const GlobalStyle = createGlobalStyle`
     padding-inline: min(80vw, 3rem);
     background-color: rgba(24, 26, 34, 0.9);
     background-image: linear-gradient(45deg, rgba(24, 27, 25, 0.9), rgba(24, 26, 34, 0.9));
-    /* background-color: #48284A;
-    background-image: linear-gradient(45deg, #121417, #48284A); */
   }
 
   .about-section{
