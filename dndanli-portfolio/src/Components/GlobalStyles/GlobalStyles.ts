@@ -12,8 +12,9 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items: center;
     padding-inline: min(80vw, 3rem);
-    background-color: rgba(24, 26, 34, 0.9);
-    background-image: linear-gradient(45deg, rgba(24, 27, 25, 0.9), rgba(24, 26, 34, 0.9));
+    background-color: rgba(238, 238, 238, 0.9);
+    background-image: linear-gradient(45deg, rgba(238, 238, 238, 0.9), rgba(245, 245, 245, 0.9));
+
   }
 
   .about-section{
@@ -26,12 +27,16 @@ const GlobalStyle = createGlobalStyle`
       }
     }
   }
-  .projects-section{
+  .projects-section, .contact-section{
     @media only screen and (min-width: 500px){
       .project-image-wrapper img {
         max-width: 370px;
         max-height: 280px;
         border-radius: 1rem;
+      }
+      .contact-wrapper{
+        font-size: 1.3rem;
+        min-width: 33rem;
       }
     }
   }
@@ -62,13 +67,19 @@ const GlobalStyle = createGlobalStyle`
         }
       } 
       .greetings{
-          font-size: 1.5rem;
+        font-size: 1.5rem;
       }   
     }
   }
 
-  .projects-section, .skills-section{
+  .projects-section, .skills-section, .about-section, .contact-section{
     @media only screen and (min-width: 1200px){
+      .greetings{
+        font-size: 1.8rem;
+      }
+      .about-text{
+        font-size: 1.6rem;
+      }
       .skillset-card{
         min-width: 23rem;
       }
@@ -92,9 +103,22 @@ const GlobalStyle = createGlobalStyle`
       #recent-works, #skill-header-title{
         font-size: 1.3rem;
         margin-bottom: 1.5rem;
+      }      
+  
+      .contact-wrapper{
+        padding-block: min(25vh, 7rem);
+        min-width: 60rem;
+      } 
+      .contact-socials {
+        flex-direction: row;
+        .link-button {
+          margin-left: 1.5rem;
+          margin-top: 0;
+        }
       }
     }
   }
+  
 `;
 
 export default GlobalStyle;
