@@ -12,8 +12,10 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items: center;
     padding-inline: min(80vw, 3rem);
-    background-color: #48284A;
-    background-image: linear-gradient(45deg, #121417, #48284A);
+    background-color: rgba(24, 26, 34, 0.9);
+    background-image: linear-gradient(45deg, rgba(24, 27, 25, 0.9), rgba(24, 26, 34, 0.9));
+    /* background-color: #48284A;
+    background-image: linear-gradient(45deg, #121417, #48284A); */
   }
 
   .about-section{
@@ -53,7 +55,7 @@ const GlobalStyle = createGlobalStyle`
         grid-gap: 3rem;
       }
       .skillset-card{
-        min-width: 22rem;
+        min-width: 19rem;
       }
       #tools{
         grid-column: 1/3;
@@ -66,11 +68,17 @@ const GlobalStyle = createGlobalStyle`
       }   
     }
   }
-  
-  .projects-section{
+
+  .projects-section, .skills-section{
     @media only screen and (min-width: 1200px){
+      .skillset-card{
+        min-width: 23rem;
+      }
       .project-card{
         max-width: 23rem;
+        .btn-text-input {
+          font-size: 17px;
+        }
       }
 
       .project-image-wrapper img {
@@ -82,6 +90,10 @@ const GlobalStyle = createGlobalStyle`
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 3rem
+      }
+      #recent-works, #skill-header-title{
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
       }
     }
   }
