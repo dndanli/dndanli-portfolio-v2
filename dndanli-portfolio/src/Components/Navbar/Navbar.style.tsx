@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 const StyledNavbar = styled(Navbar)`
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: rgba(250, 250, 250, 0.8);
   display: flex;
   justify-content: center;
   min-height: 4rem;
@@ -13,7 +12,8 @@ const StyledNavbar = styled(Navbar)`
   ul {
     list-style-type: none;
     display: flex;
-    background-color: rgba(250, 250, 250, 0.1);
+    color: rgba(57, 62, 70, 0.8);
+    background-color: rgba(250, 250, 250, 0.2);
     align-items: center;
     justify-content: space-evenly;
     min-height: 3.5rem;
@@ -21,6 +21,8 @@ const StyledNavbar = styled(Navbar)`
     position: fixed;
     border-radius: 1.05rem;
     backdrop-filter: blur(10px);
+    z-index: 2;
+    border: 0.3px solid rgba(57, 62, 70, 0.1);
   }
 
   li {
@@ -29,6 +31,7 @@ const StyledNavbar = styled(Navbar)`
     &:hover {
       transition: all ease-in-out 350ms;
       color: rgba(250, 250, 250, 0.9);
+      color: rgba(57, 62, 70, 0.9);
     }
   }
 `;
