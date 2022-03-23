@@ -8,7 +8,7 @@ const Projects = ({ className }: ProjectsProps) => {
   return (
     <div className={className} id="projects">
       <div id="recent-works">
-        <h1 id="recent-works">Recent works</h1>
+        <h1>Recent works</h1>
       </div>
       <div className="projects-container">
         {ProjectsData.map((project) => {
