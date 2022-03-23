@@ -8,7 +8,7 @@ type SkillsProps = {
 const Skills = ({ className }: SkillsProps) => {
   return (
     <div className={className} id="skills">
-      <div id="skill-title">
+      <div id="skill-header-title">
         <h1>What I'm skilled at</h1>
       </div>
 
