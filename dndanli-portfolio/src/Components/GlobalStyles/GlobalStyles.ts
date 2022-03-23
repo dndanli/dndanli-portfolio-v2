@@ -73,13 +73,6 @@ const GlobalStyle = createGlobalStyle`
         padding-block: min(25vh, 7rem);
         min-width: 60rem;
       } 
-      .contact-socials {
-        flex-direction: row;
-        .link-button {
-          margin-left: 1.5rem;
-          margin-top: 0;
-        }
-      }
     }
   }
 
