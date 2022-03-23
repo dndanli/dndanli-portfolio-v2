@@ -29,7 +29,7 @@ const StyledSkillsetCard = styled(SkillsetCard)`
     margin-bottom: 10%;
   }
   .checkmark-icon {
-    color: #51c4d3;
+    color: rgba(0, 173, 181, 0.9);
   }
 `;
 
