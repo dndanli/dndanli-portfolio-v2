@@ -24,7 +24,16 @@ const SkillsData: {
   {
     id: "tools",
     title: "Tools",
-    skills: ["Git", "GitHub", "Heroku", "VsCode", "NeoVim", "Windows", "Linux"],
+    skills: [
+      "Git",
+      "GitHub",
+      "Heroku",
+      "Vercel",
+      "VsCode",
+      "NeoVim",
+      "Windows",
+      "Linux",
+    ],
   },
 ];
 
