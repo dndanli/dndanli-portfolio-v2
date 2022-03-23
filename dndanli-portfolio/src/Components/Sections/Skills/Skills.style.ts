@@ -14,8 +14,8 @@ const StyledSkills = styled(Skills)`
     margin-bottom: 10%;
   }
 
-  #skill-title {
-    color: rgba(250, 250, 250, 0.8);
+  #skill-header-title {
+    color: rgba(250, 250, 250, 0.9);
     margin-bottom: 1rem;
   }
 `;
