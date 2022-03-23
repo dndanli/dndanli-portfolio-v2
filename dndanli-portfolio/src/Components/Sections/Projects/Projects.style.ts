@@ -10,7 +10,7 @@ const StyledProjects = styled(Projects)`
   }
   #recent-works {
     font-family: "Inter", sans-serif;
-    color: rgba(250, 250, 250, 0.8);
+    color: rgba(57, 62, 70, 0.9);
     margin-bottom: 1rem;
   }
 `;
