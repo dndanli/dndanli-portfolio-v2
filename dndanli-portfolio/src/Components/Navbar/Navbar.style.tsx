@@ -16,7 +16,7 @@ const StyledNavbar = styled(Navbar)`
     background-color: rgba(250, 250, 250, 0.1);
     align-items: center;
     justify-content: space-evenly;
-    min-height: 4rem;
+    min-height: 3.5rem;
     min-width: 22rem;
     position: fixed;
     border-radius: 1.05rem;
@@ -24,7 +24,7 @@ const StyledNavbar = styled(Navbar)`
   }
 
   li {
-    font-size: 1.1rem;
+    font-size: 1rem;
     cursor: pointer;
     &:hover {
       transition: all ease-in-out 350ms;
