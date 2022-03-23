@@ -70,7 +70,13 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.5rem;
       }
       .contact-title {
-          font-size: 3rem;
+        font-size: 3rem;
+      }
+      .contact-text{
+        font-size: 1.7rem;
+      }
+      .email{
+        font-size: 1.7rem;
       }
    
       .contact-wrapper{
