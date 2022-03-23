@@ -49,7 +49,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  .skills-section, .about-section{
+  .skills-section, .about-section, .contact-section{
     @media only screen and (min-width: 769px){
       .skills-container{
         display: grid;
@@ -68,11 +68,22 @@ const GlobalStyle = createGlobalStyle`
       } 
       .greetings{
         font-size: 1.5rem;
-      }   
+      }
+      .contact-wrapper{
+        padding-block: min(25vh, 7rem);
+        min-width: 60rem;
+      } 
+      .contact-socials {
+        flex-direction: row;
+        .link-button {
+          margin-left: 1.5rem;
+          margin-top: 0;
+        }
+      }
     }
   }
 
-  .projects-section, .skills-section, .about-section, .contact-section{
+  .projects-section, .skills-section, .about-section{
     @media only screen and (min-width: 1200px){
       .greetings{
         font-size: 1.8rem;
@@ -105,17 +116,6 @@ const GlobalStyle = createGlobalStyle`
         margin-bottom: 1.5rem;
       }      
   
-      .contact-wrapper{
-        padding-block: min(25vh, 7rem);
-        min-width: 60rem;
-      } 
-      .contact-socials {
-        flex-direction: row;
-        .link-button {
-          margin-left: 1.5rem;
-          margin-top: 0;
-        }
-      }
     }
   }
   
