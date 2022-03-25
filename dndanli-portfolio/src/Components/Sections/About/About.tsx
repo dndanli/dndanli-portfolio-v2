@@ -22,8 +22,8 @@ const About = ({ className }: AboutProps) => {
       <div className="about-text">
         <div>
           <p>
-            I'm a full-stack developer that specializes in building high quality
-            web based software.
+            I'm a full-stack developer that specializes in building web based
+            software.
           </p>
           <p>
             Since you're here why don't you check my skills and projects down
