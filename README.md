@@ -1,2 +1,2 @@
 # dndanli-portfolio
-MY personal portfolio website
+My personal portfolio website
