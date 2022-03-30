@@ -4,12 +4,11 @@ import SkillsetCard from "./SkillsetCard";
 const StyledSkillsetCard = styled(SkillsetCard)`
   min-width: 19rem;
   min-height: 17rem;
-  background-color: #393e46;
-  color: rgba(250, 250, 250, 0.8);
-  border-radius: 1.5rem;
+  color: rgba(16, 16, 16, 0.7);
+  border-radius: 10px;
 
   .skill-title {
-    color: rgba(250, 250, 250, 0.8);
+    color: rgba(16, 16, 16, 0.7);
     text-align: center;
     padding-top: 1rem;
   }
@@ -28,9 +27,12 @@ const StyledSkillsetCard = styled(SkillsetCard)`
   .skill-list-item {
     margin-bottom: 10%;
   }
-  .checkmark-icon {
-    color: rgba(0, 173, 181, 0.9);
+
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
   }
+  transition: 0.5s ease;
 `;
 
 export default StyledSkillsetCard;
