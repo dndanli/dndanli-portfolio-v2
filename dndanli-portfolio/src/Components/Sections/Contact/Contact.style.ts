@@ -30,7 +30,7 @@ const StyledContact = styled(Contact)`
   .contact-title,
   .contact-text {
     color: rgba(16, 16, 16, 0.8);
-    margin-bottom: 1.5rem;
+    margin-bottom: 6rem;
   }
   .contact-text {
     font-size: 1.2rem;
