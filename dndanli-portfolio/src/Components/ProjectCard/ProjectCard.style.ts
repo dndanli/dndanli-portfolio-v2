@@ -6,15 +6,14 @@ const StyledProjectCard = styled(ProjectCard)`
   font-weight: 400;
   min-width: 19rem;
   min-height: 36rem;
-  border-radius: 1rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-inline: min(30vw, 1rem);
-
-  background-color: #343a40;
-  background-image: linear-gradient(45deg, #343a40, #393e46);
+  border-radius: 15px;
+  border: solid 0.5px rgba(16, 16, 16, 0.2);
+  transition: 0.5s ease;
 
   .project-image-wrapper {
     padding-block: min(30vh, 1.5rem);
@@ -26,7 +25,6 @@ const StyledProjectCard = styled(ProjectCard)`
   .project-image-wrapper img {
     max-width: 300px;
     max-height: 200px;
-    border-radius: 1rem;
   }
 
   .project-info-wrapper > div {
@@ -35,7 +33,7 @@ const StyledProjectCard = styled(ProjectCard)`
 
   .project-title {
     text-align: center;
-    color: rgba(250, 250, 250, 0.9);
+    color: rgba(16, 16, 16, 0.8);
   }
 
   .project-description {
@@ -44,11 +42,11 @@ const StyledProjectCard = styled(ProjectCard)`
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    color: rgba(250, 250, 250, 0.7);
+    color: rgba(16, 16, 16, 0.8);
   }
 
   .project-stack {
-    color: rgba(250, 250, 250, 0.7);
+    color: rgba(16, 16, 16, 0.8);
     list-style-type: none;
     display: flex;
     justify-content: center;
