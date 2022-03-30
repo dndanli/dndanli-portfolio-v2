@@ -8,14 +8,14 @@ const Navbar = ({ className }: NavbarProps) => {
   return (
     <div className={className}>
       <ul>
-        <Link to="skills" spy={true} smooth={true} offset={-100} duration={800}>
+        <Link to="skills" spy={true} smooth={true} offset={-160} duration={800}>
           <li>SKILLS</li>
         </Link>
         <Link
           to="projects"
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={-60}
           duration={800}
         >
           <li>PROJECTS</li>
