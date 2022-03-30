@@ -11,7 +11,7 @@ const StyledAbout = styled(About)`
     font-size: 1rem;
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    color: rgba(57, 62, 70, 0.9);
+    color: rgba(16, 16, 16, 0.8);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ const StyledAbout = styled(About)`
 
     margin-top: 2rem;
     padding-inline: min(30vw, 2rem);
-    color: rgba(57, 62, 70, 0.9);
+    color: rgba(16, 16, 16, 0.8);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,10 +67,10 @@ const StyledAbout = styled(About)`
     font-size: 3.5rem;
     display: flex;
     justify-content: center;
-    color: rgba(57, 62, 70, 0.8);
+    color: rgba(16, 16, 16, 0.7);
     cursor: pointer;
     &:hover {
-      color: rgba(57, 62, 70, 0.9);
+      color: rgba(16, 16, 16, 0.9);
       transition: 0.5s ease-in-out;
     }
   }
