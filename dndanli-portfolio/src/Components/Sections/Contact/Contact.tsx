@@ -9,12 +9,6 @@ const Contact = ({ className }: ContactProps) => {
     <div className={className} id="contact-section">
       <div className="contact-wrapper">
         <h1 className="contact-title">Would you like to chat?</h1>
-        <div className="contact-text">
-          <p>
-            I'm currently seeking a job as a software developer. If you have any
-            new opportunities and think I'm a good fit, let me know.
-          </p>
-        </div>
         <div className="contact-socials">
           <h2 className="email">danielfcdelima@gmail.com</h2>
           <div id="button">
