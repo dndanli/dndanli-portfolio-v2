@@ -69,14 +69,8 @@ const GlobalStyle = createGlobalStyle`
       }
       .contact-title {
         font-size: 3rem;
-        margin-bottom: 2rem;
+        margin-bottom: 6rem;
       }
-      .contact-text{
-        min-height: 10rem;
-        font-size: 1.6rem;
-        margin-bottom: 0;
-      }
-
       .email{
         font-size: 1.7rem;
         margin-top: -3rem;
@@ -124,17 +118,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  .contact-section{
-
-    @media only screen and (min-width: 1200px){
-      .contact-wrapper{
-          min-width: 50rem;
-      } 
-      .contact-text{
-        font-size: 1.6rem;
-      } 
-    }
-  }
   
 `;
 
