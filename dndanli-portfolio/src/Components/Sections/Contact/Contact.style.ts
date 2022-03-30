@@ -29,12 +29,15 @@ const StyledContact = styled(Contact)`
   }
   .contact-title,
   .contact-text {
-    color: rgba(57, 62, 70, 0.9);
+    color: rgba(16, 16, 16, 0.8);
     margin-bottom: 1.5rem;
+  }
+  .contact-text {
+    font-size: 1.2rem;
   }
   .email {
     font-weight: 400;
-    color: rgba(57, 62, 70, 0.9);
+    color: rgba(16, 16, 16, 0.9);
   }
   .email .contact-text {
     margin-top: 1.5rem;
