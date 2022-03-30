@@ -124,6 +124,9 @@ const GlobalStyle = createGlobalStyle`
       .contact-wrapper{
         min-width: 50rem;
       } 
+      .contact-text{
+        font-size: 1.6rem;
+      }
   
     }
   }
