@@ -37,15 +37,15 @@ const About = ({ className }: AboutProps) => {
           className="link-button"
           textInput="LinkedIn"
           link="https://www.linkedin.com/in/daniel-de-lima-a07aa8223/"
-          inputBgColor="#00ADB5"
-          inputColor="white"
+          inputBgColor="#f6c4ed"
+          inputColor="rgba(16, 16, 16, 0.8)"
         ></StyledLinkButton>
 
         <StyledLinkButton
           className="link-button"
           textInput="GitHub"
           link="https://github.com/dndanli"
-          inputBgColor="#AAD8D3"
+          inputBgColor="#ffcaa6"
           inputColor="#082032"
         ></StyledLinkButton>
       </div>
