@@ -89,7 +89,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  .projects-section, .skills-section, .about-section, .contact-section{
+  .projects-section, .skills-section, .about-section{
     @media only screen and (min-width: 1200px){
       .greetings{
         font-size: 1.8rem;
@@ -121,13 +121,18 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.3rem;
         margin-bottom: 1.5rem;
       }      
+    }
+  }
+
+  .contact-section{
+
+    @media only screen and (min-width: 1200px){
       .contact-wrapper{
-        min-width: 50rem;
+          min-width: 50rem;
       } 
       .contact-text{
         font-size: 1.6rem;
-      }
-  
+      } 
     }
   }
   
