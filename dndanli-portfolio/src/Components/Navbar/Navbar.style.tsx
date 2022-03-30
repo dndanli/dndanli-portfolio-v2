@@ -12,7 +12,7 @@ const StyledNavbar = styled(Navbar)`
   ul {
     list-style-type: none;
     display: flex;
-    color: rgba(57, 62, 70, 0.8);
+    color: rgba(16, 16, 16, 0.7);
     background-color: rgba(250, 250, 250, 0.2);
     align-items: center;
     justify-content: space-evenly;
@@ -30,8 +30,7 @@ const StyledNavbar = styled(Navbar)`
     cursor: pointer;
     &:hover {
       transition: all ease-in-out 350ms;
-      color: rgba(250, 250, 250, 0.9);
-      color: rgba(57, 62, 70, 0.9);
+      color: rgba(16, 16, 16, 0.8);
     }
   }
 `;
