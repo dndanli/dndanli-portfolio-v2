@@ -11,9 +11,8 @@ const Contact = ({ className }: ContactProps) => {
         <h1 className="contact-title">Would you like to chat?</h1>
         <div>
           <p className="contact-text">
-            I'm currently seeking a job as a software developer, If you have any
-            new opportunities and think I'm a good fit, let me know. Or contact
-            me if you have any cool projects to work on.
+            I'm currently seeking a job as a software developer. If you have any
+            new opportunities and think I'm a good fit, let me know.
           </p>
         </div>
         <div className="contact-socials">
@@ -23,8 +22,8 @@ const Contact = ({ className }: ContactProps) => {
               className="link-button"
               textInput="LinkedIn"
               link="https://www.linkedin.com/in/daniel-de-lima-a07aa8223/"
-              inputBgColor="#00ADB5"
-              inputColor="white"
+              inputBgColor="#f6c4ed"
+              inputColor="rgba(16, 16, 16, 0.9)"
             ></StyledLinkButton>
           </div>
         </div>
