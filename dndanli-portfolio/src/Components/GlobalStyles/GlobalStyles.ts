@@ -12,9 +12,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items: center;
     padding-inline: min(80vw, 3rem);
-    background-color: rgba(238, 238, 238, 0.9);
-    background-image: linear-gradient(45deg, rgba(238, 238, 238, 0.9), rgba(245, 245, 245, 0.9));
-
+    background-color: rgba(255, 255, 255, 0.9);
   }
 
   .about-section{
@@ -32,7 +30,6 @@ const GlobalStyle = createGlobalStyle`
       .project-image-wrapper img {
         max-width: 370px;
         max-height: 280px;
-        border-radius: 1rem;
       }
       .contact-wrapper{
         font-size: 1.3rem;
@@ -59,6 +56,7 @@ const GlobalStyle = createGlobalStyle`
       }
       .skillset-card{
         min-width: 19rem;
+        margin-bottom: 0;
       }
       #tools{
         grid-column: 1/3;
@@ -71,22 +69,27 @@ const GlobalStyle = createGlobalStyle`
       }
       .contact-title {
         font-size: 3rem;
+        margin-bottom: 2rem;
       }
       .contact-text{
-        font-size: 1.7rem;
+        min-height: 10rem;
+        font-size: 1.6rem;
+        margin-bottom: 0;
       }
+
       .email{
         font-size: 1.7rem;
+        margin-top: -3rem;
       }
    
       .contact-wrapper{
         padding-block: min(25vh, 7rem);
-        min-width: 60rem;
+        min-width: 45rem;
       } 
     }
   }
 
-  .projects-section, .skills-section, .about-section{
+  .projects-section, .skills-section, .about-section, .contact-section{
     @media only screen and (min-width: 1200px){
       .greetings{
         font-size: 1.8rem;
@@ -118,6 +121,9 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.3rem;
         margin-bottom: 1.5rem;
       }      
+      .contact-wrapper{
+        min-width: 50rem;
+      } 
   
     }
   }
