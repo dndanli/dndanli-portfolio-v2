@@ -15,7 +15,7 @@ const About = ({ className }: AboutProps) => {
           <span id="span-greeting-1"> De Lima</span>
         </h1>
         <h1>
-          a <span id="span-greeting-2">Digital Craftsman</span>
+          <span id="span-greeting-2">Software Developer</span>
         </h1>
       </div>
 
@@ -25,6 +25,7 @@ const About = ({ className }: AboutProps) => {
             I'm a full-stack developer that specializes in building web based
             software.
           </p>
+
           <p>
             Since you're here why don't you check my skills and projects down
             below?

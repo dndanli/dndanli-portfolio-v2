@@ -7,6 +7,8 @@ const StyledProjectCard = styled(ProjectCard)`
   min-width: 19rem;
   min-height: 36rem;
 
+  position: relative;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,14 +60,20 @@ const StyledProjectCard = styled(ProjectCard)`
   }
   .project-buttons {
     margin-top: 2rem;
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 100%;
   }
 
   .link-button {
     border-radius: 0.8rem;
     width: 7rem;
+    margin-right: 1rem;
   }
+
   .btn-text-input {
     font-size: 19px;
   }

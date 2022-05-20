@@ -1,6 +1,7 @@
 import P1 from "../Assets/decide-my-meal-m.png";
 import P2 from "../Assets/expenses-tracker-m.png";
 import P3 from "../Assets/cantus-music-m.png";
+import P4 from "../Assets/my-movie-list.png";
 
 const ProjectsData: {
   id: number;
@@ -31,6 +32,24 @@ const ProjectsData: {
   },
   {
     id: 2,
+    imgUrl: P4,
+    projectUrl: "http://decidemymeal.com/",
+    sourceCodeUrl: "https://github.com/dndanli/My-movie-list",
+    title: "My Movie List",
+    desc: "Building a web platform where users can review, and keep track of your favorite movies and TV shows (Currently in development).",
+    isLive: false,
+    stack: [
+      "TypeScript",
+      "PostgreSQL",
+      "Nodejs",
+      "Express",
+      "ReactJs",
+      "The Movie DB Api",
+      "Styled Components",
+    ],
+  },
+  {
+    id: 3,
     imgUrl: P2,
     sourceCodeUrl: "https://github.com/dndanli/Expenses-tracker",
     title: "Expenses Tracker",
@@ -39,7 +58,7 @@ const ProjectsData: {
     stack: ["Python", "Django", "SQLite3", "HTML", "CSS", "JavaScript"],
   },
   {
-    id: 3,
+    id: 4,
     imgUrl: P3,
     sourceCodeUrl: "https://github.com/dndanli/Cantus-Music",
     title: "Cantus Music",
