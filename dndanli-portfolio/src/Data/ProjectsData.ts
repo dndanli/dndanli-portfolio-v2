@@ -1,6 +1,6 @@
 import P1 from "../Assets/decide-my-meal-m.png";
 import P2 from "../Assets/expenses-tracker-m.png";
-import P3 from "../Assets/cantus-music-m.png";
+import P3 from "../Assets/health-promotion.png";
 import P4 from "../Assets/my-movie-list.png";
 
 const ProjectsData: {
@@ -12,6 +12,7 @@ const ProjectsData: {
   desc: string;
   isLive: boolean;
   stack: string[];
+  video?: string;
 }[] = [
   {
     id: 1,
@@ -31,9 +32,18 @@ const ProjectsData: {
     ],
   },
   {
+    id: 4,
+    imgUrl: P3,
+    sourceCodeUrl: "https://github.com/tsorteberg/HealthPromotion",
+    video: "https://www.youtube.com/watch?v=a4vElq9no4A",
+    title: "Health Promotion",
+    desc: "A web application to check users' Blood pressure levels and BMI index, built with a team of 4 students.",
+    isLive: false,
+    stack: ["Java", "Spring Boot", "AWS", "MySQL", "JavaScript", "HTML", "CSS"],
+  },
+  {
     id: 2,
     imgUrl: P4,
-    projectUrl: "http://decidemymeal.com/",
     sourceCodeUrl: "https://github.com/dndanli/My-movie-list",
     title: "My Movie List",
     desc: "Building a web platform where users can review, and keep track of their favorite movies and TV shows (Currently in development).",
@@ -55,15 +65,6 @@ const ProjectsData: {
     desc: "A project to help users keep track of their monthly finances.",
     isLive: false,
     stack: ["Python", "Django", "SQLite3", "HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 4,
-    imgUrl: P3,
-    sourceCodeUrl: "https://github.com/dndanli/Cantus-Music",
-    title: "Cantus Music",
-    desc: "A mockup audio streaming service (coming soon)",
-    isLive: false,
-    stack: ["React", "TypeScript", "Styled Components"],
   },
 ];
 

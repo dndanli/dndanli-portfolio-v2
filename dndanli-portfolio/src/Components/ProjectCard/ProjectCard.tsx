@@ -9,6 +9,7 @@ type ProjectCardProps = {
   projectDescription: string;
   projectStack: string[];
   isLive: boolean;
+  video?: string;
 };
 
 const ProjectCard = ({
@@ -20,6 +21,7 @@ const ProjectCard = ({
   projectDescription,
   projectStack,
   isLive,
+  video,
 }: ProjectCardProps) => {
   return (
     <div className={className}>
@@ -47,6 +49,16 @@ const ProjectCard = ({
               className="link-button"
               textInput="See live"
               link={projectUrl}
+              inputBgColor="rgba(16, 16, 16, 0.3)"
+              inputColor="white"
+            ></StyledLinkButton>
+          ) : null}
+
+          {video !== undefined ? (
+            <StyledLinkButton
+              className="link-button"
+              textInput="See Video"
+              link={video}
               inputBgColor="rgba(16, 16, 16, 0.3)"
               inputColor="white"
             ></StyledLinkButton>

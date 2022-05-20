@@ -22,6 +22,7 @@ const Projects = ({ className }: ProjectsProps) => {
               projectDescription={project.desc}
               projectStack={project.stack}
               isLive={project.isLive}
+              video={project.video}
               key={project.id}
             ></StyledProjectCard>
           );
