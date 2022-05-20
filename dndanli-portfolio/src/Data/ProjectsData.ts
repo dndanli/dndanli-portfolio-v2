@@ -36,7 +36,7 @@ const ProjectsData: {
     projectUrl: "http://decidemymeal.com/",
     sourceCodeUrl: "https://github.com/dndanli/My-movie-list",
     title: "My Movie List",
-    desc: "Building a web platform where users can review, and keep track of your favorite movies and TV shows (Currently in development).",
+    desc: "Building a web platform where users can review, and keep track of their favorite movies and TV shows (Currently in development).",
     isLive: false,
     stack: [
       "TypeScript",
@@ -45,7 +45,6 @@ const ProjectsData: {
       "Express",
       "ReactJs",
       "The Movie DB Api",
-      "Styled Components",
     ],
   },
   {
