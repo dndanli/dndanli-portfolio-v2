@@ -17,7 +17,7 @@ const ProjectsData: {
   {
     id: 1,
     imgUrl: P1,
-    projectUrl: "http://decidemymeal.com/",
+    projectUrl: "https://decidemymeal.com/",
     sourceCodeUrl: "https://github.com/dndanli/decide-my-meal",
     title: "Decide my meal",
     desc: "A website to help people decide what to eat and where to eat.",
